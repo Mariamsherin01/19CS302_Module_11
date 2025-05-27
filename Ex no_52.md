@@ -11,7 +11,7 @@ There is not built in max function in C. Code that will be reused is often put i
 Input will contain four integers - a,b,c,d , one on each line.
 
 ## Program
-
+```
 #include<stdio.h>
 int max(int x,int y)
 {
@@ -38,7 +38,7 @@ int main()
     h=max(f,g);
     printf("%d",h);
 }
-
+```
 ## Output Format
 
 Print the greatest of the four integers.
